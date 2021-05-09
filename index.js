@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 //Routes
-app.get('/',(req,res)=>{
+app.get('/test',(req,res)=>{
     res.send('Hello World')
 })
 //Setup Port Number
